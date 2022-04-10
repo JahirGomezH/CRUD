@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+	font-family: 'Staatliches', cursive;
+	font-size: 2vw;
+	color: #FFF;
+}
+img.bell {
+	width: 6vw;
+	height: auto;
+	margin-left: 3vw;
+}
+
+#navbar {
+	background-color: #FFBF69;
+	width: 100%;
+}
+/*Image*/
+div.contenedor {
+	position: relative;
+	display: inline-block;
+    text-align: center;
+}
+img.relax {
+	width:100%;
+	height: auto;
+}
+p {
+	position: absolute;
+    top: 15vw;
+    left: 10vw;
+	font-family: sans-serif;
+	font-size: 5vw;
+	-webkit-text-stroke: 2px rgba(243, 243, 243, 0.813);
+	color: #219ebc; 
+
+}
+/*Section*/
+div.section {
+	background-color: #023047;
+	width: 100%;
+};
+
+label {
+	color: #FFF;
+	font-family:'Staatliches', cursive;
+	font-size: 2vw;
+}
+.button {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-size: 1vw;
+	background: #fff; 
+	color: #023047; 
+	border: 2px solid #FFBF69; 
+	padding: 12px 15px;
+	border-radius: 3px; 
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+  }
+  .button:hover {
+	color: #fff;
+	font-size: 1vw;
+  }
+  .button::after {
+	content: "";
+	background: #FFBF69;
+	position: absolute;
+	z-index: -2;
+	padding: 16px 20px;
+	display: block;
+	left: -30%;
+	right: -30%;
+	top: 0;
+	bottom: 0;
+	transform: skewX(-45deg) scale(0, 1);
+	transition: all 0.3s ease;
+  }
+  .button:hover::after {
+	transition: all 0.3s ease-out;
+	transform: skewX(-45deg) scale(1, 1);
+  }
+
+  /*footer*/
+  footer {
+	background-color: #FFBF69;
+  }
+
+  img.red {
+	  width: 2vw;
+	  height: auto;
+  }
