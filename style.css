@@ -21,14 +21,14 @@ div.contenedor {
     text-align: center;
 }
 img.relax {
-	width:100%;
+	width:110%;
 	height: auto;
 }
 p {
 	position: absolute;
     top: 15vw;
     left: 10vw;
-	font-family: 'Lobster', cursive;
+	font-family: 'Staatliches', cursive;
 	font-size: 5vw;
 	-webkit-text-stroke: 2px rgba(243, 243, 243, 0.813);
 	color: #219ebc; 
